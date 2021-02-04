@@ -6,23 +6,23 @@ public class Animal {
 
     protected int weight;
 
-    public Animal() {
+    public void Animal() {
         name="generic animal";
-        weight=25;
+        weight=10;
     }
 
     public void eat() {
-        System.out.println("Animal eating...");
+        System.out.println("Animal eating");
     }
 
     public void speak() {
-        System.out.println("Animal speaking...");
+        System.out.println("Animal speaking");
     }
 
     @Override
     public String toString() {
-        return "My animal:" + "\nName:\t" + name + "\nWeight:\t" + weight+" kg";
+        return "Animal:" + "\name:\t" + name + "\nweight\t" + weight + '}';
     }
 
- 
+   
 }
